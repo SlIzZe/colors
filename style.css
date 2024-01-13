@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container { 
+  border: 1px solid #000;
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex_colors {
+  text-align: center;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  margin-top: 50px;
+  background: rgb(0, 115, 255);
+  color: #fff;
+  border: 1px solid darkred;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+}
